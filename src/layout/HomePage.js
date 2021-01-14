@@ -3,8 +3,12 @@ const HomePage = () => {
         <div className="homepage__container">
             <span>.01</span>
             <div className="homepage__background">
-                <h1>Jenny Dinh</h1>
+                <h1>Jenny <span>Dinh</span></h1>
             </div>
+            <div className="homepage__cursive">
+                <h2>Front End Web Developer</h2>
+            </div>
+            <p>VERSION 2.0 - 2021</p>
         </div>
     )
 }

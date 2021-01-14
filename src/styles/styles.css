@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 .clearfix:after {
   content: ".";
   display: block;
@@ -95,20 +96,45 @@ body {
 }
 
 .homepage__container span {
+  color: #9f7866;
   display: block;
   font: normal 2rem "Cormorant Garamond", serif;
   text-align: center;
   padding-top: 16px;
 }
 
+.homepage__container p {
+  font: normal 1.3rem "Cormorant Garamond", serif;
+  color: #9f7866;
+  text-align: center;
+}
+
 .homepage__background {
   padding: 85px 0;
 }
 
-.homepage__background h1 {
+.homepage__background h1, .homepage__background span {
   text-align: center;
-  font: bold 10rem "Cormorant Garamond", serif;
+  font: bold 15rem "Cormorant Garamond", serif;
   color: #ffffff;
   opacity: 0.6;
+}
+
+.homepage__cursive {
+  position: relative;
+}
+
+.homepage__cursive h2 {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: -405px;
+  color: #9f7866;
+  text-align: center;
+  font: bold 5.7rem "Parisienne", cursive;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
 }
 /*# sourceMappingURL=styles.css.map */

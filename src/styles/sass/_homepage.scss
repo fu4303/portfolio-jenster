@@ -1,18 +1,41 @@
 .homepage__container {
     span {
+        color: $brown;
         display: block;
-        font: normal 2rem $accentFont;
+        font: normal 2rem $mainFont;
         text-align: center;
         padding-top: 16px;
+    }
+    p {
+        font: normal 1.3rem $mainFont;
+        color: $brown;
+        text-align: center;
     }
 }
 
 .homepage__background {
     padding: 85px 0;
-    h1 {
+    h1, span {
         text-align: center;
-        font: bold 10rem $accentFont;
+        font: bold 15rem $mainFont;
         color: #ffffff;
         opacity: 0.6;
+    }
+}
+
+.homepage__cursive {
+    position: relative;
+    h2 {
+        z-index: 100;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: -405px;
+        color: $brown;
+        text-align: center;
+        font: bold 5.7rem $cursive;
+        transform: rotate(-3deg);
+
     }
 }
