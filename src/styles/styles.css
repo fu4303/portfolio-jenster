@@ -93,13 +93,14 @@ p {
 
 body {
   background-color: #efd9d5;
+  margin: 0;
 }
 
 .homepage__container span {
   color: #9f7866;
   display: block;
   font: normal 2rem "Cormorant Garamond", serif;
-  text-align: center;
+  text-align: right;
   padding-top: 16px;
 }
 
