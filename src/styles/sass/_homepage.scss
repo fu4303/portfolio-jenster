@@ -13,6 +13,19 @@
     }
 }
 
+.homepage__navbar {
+    .homepage__navbar-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       li {
+           color: $brown;
+           font: normal 2rem $mainFont;
+       }
+    }
+}
+
 .homepage__background {
     padding: 85px 0;
     h1, span {
