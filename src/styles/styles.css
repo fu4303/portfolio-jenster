@@ -92,8 +92,11 @@ p {
 }
 
 body {
-  background-color: #efd9d5;
   margin: 0;
+}
+
+.homepage__container {
+  background-color: #efd9d5;
 }
 
 .homepage__container span {
